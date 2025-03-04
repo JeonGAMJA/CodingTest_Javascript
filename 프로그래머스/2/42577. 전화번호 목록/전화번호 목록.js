@@ -1,0 +1,1 @@
+const solution = (phone_book) => !phone_book.sort().some((v, i, a) => i < a.length - 1 && a[i+1].startsWith(v));
